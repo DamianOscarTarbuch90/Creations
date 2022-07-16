@@ -137,7 +137,7 @@
   width: 100%; }
 
 .main__div {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("multimedia/banner-blog.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/banner-blog.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -362,7 +362,7 @@
 /* ------------------------------------------MAIN CONTACTO------------------------------------- */
 .main__contacto {
   background-color: #bdb4b4;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("multimedia/contactoimagen.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/contactoimagen.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -605,7 +605,7 @@ h2 {
 .main__blog {
   background-color: #bdb4b4;
   height: 370vh;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("multimedia/perroygatoblog.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/perroygatoblog.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
