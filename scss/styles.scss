@@ -135,46 +135,7 @@
 
 /* --------------------------------------------MAIN INDEX------------------------------------- */
 
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: .1fr .1fr .1fr .1fr .1fr .1fr;
-    gap: 0px 0px;
-    grid-auto-rows: row;
-    grid-template-areas:
-        "header header"
-        "imagen imagen"
-        "noticias1aside1 noticias1aside1"
-        "noticias2aside2 noticias2aside2"
-        "slider slider"
-        "footer footer";
-}
-
-.header {
-    grid-area: header;
-}
-
-.imagen {
-    grid-area: imagen;
-}
-
-.noticias1aside1 {
-    grid-area: noticias1aside1;
-}
-
-.noticias2aside2 {
-    grid-area: noticias2aside2;
-}
-
-.slider {
-    grid-area: slider;
-}
-
-.footer {
-    grid-area: footer;
-}
-
-.container {
+.main {
     background-color: rgb(189, 180, 180);
     width: 100%;
 }
@@ -232,6 +193,7 @@
     animation-iteration-count: infinite;
     animation-delay: 1s;
 }
+
 @keyframes efecto-h1 {
     0% { padding-right: 0px;
 
