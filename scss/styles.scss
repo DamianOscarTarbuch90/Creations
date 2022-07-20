@@ -5,59 +5,6 @@
     padding: 0;
 }
 
-/* ----------------------------------------HEADER DE TODAS LAS PAGINAS---------------------------- */
-
-.header {
-    background-color: rgb(146, 182, 204);
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-
-
-}
-
-.header__buscador {
-    display: flex;
-    justify-content: space-around;
-}
-
-.header__buscador img {
-    padding-right: 5px;
-}
-
-.header__buscador__input {
-    background: none;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid black;
-}
-
-.header img {
-    padding-left: 10px;
-}
-
-.header__form {
-    display: flex;
-    justify-content: space-around;
-    width: 420px;
-}
-
-.header__form li {
-    list-style: circle;
-    font-size: 20px;
-    padding-right: 20px;
-}
-
-.header__form li a {
-    text-decoration: none;
-}
-
-.header__form li a:hover {
-    color: black;
-    transition: 0.5s;
-}
-
 /* -----------------------------------------FOOTER DE TODAS LAS PAGINAS------------------------------- */
 
 .footer {
