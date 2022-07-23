@@ -104,11 +104,8 @@
   .main__div h1 {
     color: #f1e4e4;
     padding-bottom: 80px;
-    font-size: 38px;
-    animation-name: efecto-h1;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-delay: 1s; }
+    font-size: 45px;
+    font-weight: bold; }
   .main__p {
     text-align: center;
     display: flex;
@@ -116,11 +113,16 @@
     align-items: center;
     padding-top: 32px;
     font-size: 25px;
-    font-weight: bold; }
+    font-weight: bold;
+    animation-name: efecto-main__p;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s; }
   .main__section {
     display: flex;
     padding-top: 30px;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    padding: 15px; }
   .main__section--article {
     padding: 15px;
     width: 60%;
@@ -151,7 +153,8 @@
     margin-left: 5px;
     margin-right: 10px; }
   .main__section--aside iframe {
-    padding-left: 75px; }
+    padding-left: 90px;
+    width: 500px; }
   .main__section--aside--h3 {
     text-align: center;
     padding-bottom: 20px; }
@@ -161,7 +164,7 @@
     float: right;
     margin-left: 10px; }
 
-@keyframes efecto-h1 {
+@keyframes efecto-main__p {
   0% {
     padding-right: 0px; }
   25% {
@@ -173,10 +176,13 @@
   100% {
     padding-left: 25px; } }
 
+.card-group {
+  gap: 10px;
+  padding: 20px;
+  border-radius: 40px; }
+
 .card {
   background-color: #92b6cc; }
-  .card-group {
-    padding: 20px; }
 
 #boton-galeria {
   margin-top: 30px;
@@ -228,7 +234,9 @@
     font-weight: bold;
     color: white;
     text-align: center;
-    padding-top: 30px; }
+    padding-top: 30px;
+    font-size: 45px;
+    font-weight: bold; }
   .main__contacto__section {
     display: flex;
     flex-direction: column;
@@ -265,14 +273,17 @@
   margin-left: 160px; }
 
 /* ------------------------------------------CSS DE GALERIA------------------------------------------------- */
-/* ------------------------------------------- MAIN DE GALERIA------------------------------------------------- */
+/* -------------------------------------- MAIN DE GALERIA----------------------------------------- */
 .main__galeria {
   background-color: #bdb4b4;
   height: 145vh; }
   .main__galeria h1 {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px; }
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 20px; }
   .main__galeria__img {
     display: flex;
     justify-content: center; }
@@ -281,7 +292,8 @@
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-gap: 10px;
     grid-auto-rows: 100px;
-    padding: 15px; }
+    padding: 15px;
+    padding-top: 40px; }
   .main__galeria__section img {
     width: 100%;
     height: 100%;
@@ -312,7 +324,9 @@
   .main__tienda h1 {
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+    font-size: 45px;
+    font-weight: bold; }
   .main__tienda h2 {
     text-align: center; }
   .main__tienda--titulosigno {
@@ -330,7 +344,8 @@
     border: 1px solid black;
     border-radius: 40px;
     margin: 10px;
-    background-color: #92b6cc; }
+    background-color: #92b6cc;
+    margin-top: 20px; }
   .main__tienda__section--article1--div, .main__tienda__section--article2--div, .main__tienda__section--article3--div, .main__tienda__section--article4--div, .main__tienda__section--article5--div, .main__tienda__section--article6--div, .main__tienda__section--article7--div, .main__tienda__section--article8--div {
     display: flex;
     margin-right: 10px;
@@ -392,8 +407,7 @@
     transition: 0.5s;
     cursor: pointer; }
 
-/* -------------------------------------------CSS DE BLOG------------------------------------------------------ */
-/* ------------------------------------------MAIN DE BLOG------------------------------------------------------ */
+/* -------------------------------------------CSS BLOG--------------------------------------------*/
 .main__blog {
   background-color: #bdb4b4;
   height: 470vh;
@@ -405,7 +419,9 @@
   .main__blog h1 {
     color: white;
     padding-top: 30px;
-    text-align: center; }
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold; }
   .main__blog__section1--article1, .main__blog__section1--article2, .main__blog__section1--article3 {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -413,17 +429,18 @@
     font-size: 25px;
     margin-left: 10px;
     margin-right: 10px; }
-  .main__blog__section1--article1 h3,
-  .main__blog__section1--article2 h3,
-  .main__blog__section1--article3 h3 {
+  .main__blog__section1--article1 h2,
+  .main__blog__section1--article2 h2,
+  .main__blog__section1--article3 h2 {
     text-align: center;
     padding-bottom: 20px;
     color: white; }
   .main__blog__section1--article1 p,
   .main__blog__section1--article2 p,
   .main__blog__section1--article3 p {
-    padding: 20px; }
-  .main__blog__section1--article1 h3 {
+    padding: 10px;
+    margin-left: 5px; }
+  .main__blog__section1--article1 h2 {
     padding-top: 40px; }
   .main__blog__section1--article1 img {
     float: left;
@@ -434,14 +451,16 @@
   .main__blog__section1--article3 img {
     float: left;
     padding: 15px; }
-  .main__blog__section1--article2 h4 {
-    padding: 20px; }
+  .main__blog__section1--article2 h3 {
+    padding: 10px;
+    color: white;
+    font-size: 30px; }
   .main__blog--h2 {
     text-align: center;
     color: white;
     padding-bottom: 40px;
     padding-top: 30px;
-    font-size: 30px; }
+    font-size: 35px; }
   .main__blog__section2--fila1 {
     display: flex; }
   .main__blog__section2--fila2 {
