@@ -11,10 +11,9 @@
 .footer__redes {
   padding: 25px;
   padding-right: 20px;
-  padding-left: 30px;
+  padding-left: 20px;
   display: flex;
-  justify-content: space-evenly;
-  width: 150px; }
+  justify-content: space-evenly; }
 
 .footer__redes img {
   padding: 7px; }
@@ -23,14 +22,15 @@
   display: flex;
   flex-direction: column;
   padding-top: 10px;
-  padding-left: 20px; }
+  padding-left: 20px;
+  padding-left: 40px; }
 
 .footer__formulario--h3 {
   color: #eeeaea; }
 
 .footer__formulario--input label {
   color: white;
-  padding-left: 45px; }
+  padding-left: 130px; }
 
 .footer__formulario--input--email {
   background-color: #eeeaea;
@@ -60,7 +60,7 @@
   color: white;
   padding-top: 70px;
   display: block;
-  padding-right: 0px; }
+  padding-left: 100px; }
 
 /* 
 --------------------------------------------CSS INDEX--------------------------------------------- */
@@ -529,24 +529,7 @@
   .main__tienda__section--article6--div,
   .main__tienda__section--article7--div,
   .main__tienda__section--article8--div {
-    justify-content: center; }
-  .footer {
-    flex-direction: column;
-    height: 50vh;
-    width: 100%; }
-  .footer__redes {
-    padding-left: 250px; }
-  .footer__redes img {
-    padding: 10px; }
-  .footer__formulario {
-    padding-left: 150px; }
-  .footer__enlaces {
-    flex-direction: row;
-    padding-left: 180px;
-    width: 40%; }
-  .footer__copyright {
-    padding-left: 180px;
-    padding-bottom: 20px; } }
+    justify-content: center; } }
 
 @media screen and (max-width: 480px) {
   .header {
@@ -616,33 +599,4 @@
     flex-direction: column;
     width: 80%;
     padding-left: 40px;
-    padding-bottom: 50px; }
-  .footer {
-    flex-direction: column;
-    height: 80vh;
-    width: 100%; }
-  .footer__redes {
-    justify-content: center;
-    padding-left: 140px;
-    height: 20vh;
-    padding-top: 80px; }
-  .footer__enlaces {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 10vw;
-    padding-left: 200px;
-    padding-top: 20px;
-    height: 25%; }
-  .footer__formulario--input {
-    padding-left: 40px;
-    padding-top: 20px; }
-  .footer__enlaces li {
-    padding: 5px;
-    font-size: 20px;
-    align-items: center;
-    padding: 10px; }
-  .footer__copyright {
-    text-align: center;
-    padding-bottom: 60px;
-    height: 5vh; } }
+    padding-bottom: 50px; } }
