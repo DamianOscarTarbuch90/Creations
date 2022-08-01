@@ -1,0 +1,154 @@
+.main__tienda {
+    background-color: rgb(189, 180, 180);
+    height: 105vh;
+
+    h1 {
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: $fuente-h1;
+        font-weight: bold;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    &--titulosigno {
+        display: flex;
+        justify-content: center;
+    }
+
+    &--titulosigno img {
+        padding: 15px;
+        margin-top: 15px;
+    }
+
+    &__section--fila1 {
+        display: flex;
+    }
+
+    &__section--fila2 {
+        display: flex;
+    }
+
+    &__section--article1,
+    &__section--article2,
+    &__section--article3,
+    &__section--article4,
+    &__section--article5,
+    &__section--article6,
+    &__section--article7,
+    &__section--article8 {
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 40px;
+        margin: 10px;
+        background-color: rgb(146, 182, 204);
+        margin-top: 20px;
+    }
+
+    &__section--article1--div,
+    &__section--article2--div,
+    &__section--article3--div,
+    &__section--article4--div,
+    &__section--article5--div,
+    &__section--article6--div,
+    &__section--article7--div,
+    &__section--article8--div {
+        display: flex;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    &__section--article1--div--form,
+    &__section--article2--div--form,
+    &__section--article3--div--form,
+    &__section--article4--div--form,
+    &__section--article5--div--form,
+    &__section--article6--div--form,
+    &__section--article7--div--form,
+    &__section--article8--div--form {
+        @include flex (column, center)
+    }
+
+    &__section--article1--div--form p,
+    &__section--article2--div--form p,
+    &__section--article3--div--form p,
+    &__section--article4--div--form p,
+    &__section--article5--div--form p,
+    &__section--article6--div--form p,
+    &__section--article7--div--form p,
+    &__section--article8--div--form p {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    &__section--article4--div--form p,
+    &__section--article3--div--form p {
+        padding-left: 20px;
+    }
+
+    &__section--article1--div--form form {
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    &__section--article2--div--form form {
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    &__section--article3--div--form form {
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    &__section--article4--div--form form {
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    &__section--article5--div--form form {
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    &__section--article6--div--form form {
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    &__section--article7--div--form form {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    &__section--article8--div--form form {
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    &__section--article8--div img {
+        margin-top: 10px;
+    }
+
+    &__section--article--div--form--button {
+        color: white;
+        background-color: $color-button-tienda;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-size: 15px;
+        padding: 10px;
+        font-weight: bold;
+        box-shadow: 2px, 2px black;
+    }
+
+    &__section--article--div--form--button:hover {
+        background-color: rgb(120, 38, 197);
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+}
+
