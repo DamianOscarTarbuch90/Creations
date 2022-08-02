@@ -3,7 +3,7 @@
   padding: 0; }
 
 .main {
-  background-color: #bdb4b4;
+  background-color: #f0e4e4;
   width: 100%; }
   .main__div {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/banner-blog.jpg");
@@ -155,8 +155,8 @@
   padding-bottom: 10px; }
 
 .main__tienda {
-  background-color: #bdb4b4;
-  height: 105vh; }
+  background-color: #f0e4e4;
+  height: 195vh; }
   .main__tienda h1 {
     text-align: center;
     padding-top: 30px;
@@ -242,6 +242,46 @@
     background-color: #7826c5;
     transition: 0.5s;
     cursor: pointer; }
+
+.cards__tienda--fila1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+
+.cards__tienda--fila2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+
+.cards__tienda--fila1--1, .cards__tienda--fila1--2, .cards__tienda--fila1--3, .cards__tienda--fila1--4, .cards__tienda--fila2--5, .cards__tienda--fila2--6, .cards__tienda--fila2--7, .cards__tienda--fila2--8 {
+  margin: 20px;
+  background-color: #f0e4e4; }
+
+.cards__tienda--fila1--1:hover {
+  background-color: #e4dcdc; }
+
+.cards__tienda--fila1--2:hover {
+  background-color: #e4dcdc; }
+
+.cards__tienda--fila1--3:hover {
+  background-color: #e4dcdc; }
+
+.cards__tienda--fila1--4:hover {
+  background-color: #e4dcdc; }
+
+.cards__tienda--fila2--5:hover {
+  background-color: #e4dcdc; }
+
+.cards__tienda--fila2--6:hover {
+  background-color: #e4dcdc; }
+
+.cards__tienda--fila2--7:hover {
+  background-color: #e4dcdc; }
+
+.cards__tienda--fila2--8:hover {
+  background-color: #e4dcdc; }
 
 .main__galeria {
   background-color: #bdb4b4;

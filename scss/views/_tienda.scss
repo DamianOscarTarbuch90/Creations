@@ -1,6 +1,6 @@
 .main__tienda {
-    background-color: rgb(189, 180, 180);
-    height: 105vh;
+    background-color: $color-fondos-pages;
+    height: 195vh;
 
     h1 {
         text-align: center;
@@ -69,7 +69,7 @@
     &__section--article6--div--form,
     &__section--article7--div--form,
     &__section--article8--div--form {
-        @include flex (column, center)
+        @include flex-2val (column, center)
     }
 
     &__section--article1--div--form p,
@@ -149,6 +149,69 @@
         transition: 0.5s;
         cursor: pointer;
     }
-
 }
 
+
+.cards__tienda {
+
+    &--fila1 {
+        @include flex-3val (row, space-around, center);
+
+    }
+
+    &--fila2 {
+        @include flex-3val (row, space-around, center);
+
+    }
+
+    &--fila1--1,
+    &--fila1--2,
+    &--fila1--3,
+    &--fila1--4,
+    &--fila2--5,
+    &--fila2--6,
+    &--fila2--7,
+    &--fila2--8 {
+        margin: 20px;
+        background-color: $color-fondos-pages;
+    }
+
+    &--fila1--1:hover {
+        background-color: rgb(228, 220, 220);
+    }
+
+    &--fila1--2:hover {
+        background-color: rgb(228, 220, 220);
+    }
+
+
+&--fila1--3:hover {
+    background-color: rgb(228, 220, 220);
+}
+
+
+&--fila1--4:hover {
+    background-color: rgb(228, 220, 220);
+}
+
+
+&--fila2--5:hover {
+    background-color: rgb(228, 220, 220);
+}
+
+
+&--fila2--6:hover {
+    background-color: rgb(228, 220, 220);
+}
+
+
+&--fila2--7:hover {
+    background-color: rgb(228, 220, 220);
+}
+
+
+&--fila2--8:hover {
+    background-color: rgb(228, 220, 220);
+}
+
+}
