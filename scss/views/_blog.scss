@@ -3,7 +3,7 @@
     background-image: linear-gradient(0deg,
             $color-gradient-parallax,
             $color-gradient-parallax),
-        url("../multimedia/perroygatoblog.jpg");
+        url("../multimedia/blog-parallax");
 
     @include parallax (no-repeat, center, fixed, cover);
     
