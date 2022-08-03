@@ -1,15 +1,12 @@
 .main__blog {
-    background-color: rgb(189, 180, 180);
     height: 540vh;
     background-image: linear-gradient(0deg,
             $color-gradient-parallax,
             $color-gradient-parallax),
         url("../multimedia/perroygatoblog.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
 
+    @include parallax (no-repeat, center, fixed, cover);
+    
     h1 {
         color: white;
         padding-top: 30px;
@@ -50,17 +47,20 @@
 
     &__section1--article1 img {
         float: left;
-        padding: 15px;
+        padding: 30px;
+        margin-top: 30px;
     }
 
     &__section1--article2 img {
         float: right;
-        padding: 15px;
+        padding: 30px;
+        margin-top: 80px;
     }
 
     &__section1--article3 img {
         float: left;
-        padding: 15px;
+        padding: 30px;
+        margin-top: 30px;
     }
 
     &__section1--article2 h3 {
@@ -118,8 +118,3 @@
     }
 
 }
-
-
-
-
-

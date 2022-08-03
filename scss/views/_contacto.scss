@@ -1,13 +1,9 @@
 .main__contacto {
-    background-color: rgb(189, 180, 180);
     background-image: linear-gradient(0deg,
             $color-gradient-parallax,
             $color-gradient-parallax),
         url("../multimedia/contactoimagen.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+    @include parallax (no-repeat, center, fixed, cover);
     height: 100vh;
 
     &_div {
@@ -74,4 +70,3 @@
     margin: 30px;
     margin-left: 160px;
 }
-

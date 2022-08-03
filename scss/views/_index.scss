@@ -7,10 +7,7 @@
                 $color-gradient-parallax,
                 $color-gradient-parallax),
             url("../multimedia/banner-blog.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
-        background-size: cover;
+            @include parallax (no-repeat, center, fixed, cover);
         display: flex;
         flex-direction: column;
         height: 92vh;
@@ -27,7 +24,7 @@
 
     &__div button {
         color: white;
-        background-color: $color-button-tienda;
+        background-color: $color-button;
         border: 1px solid black;
         border-radius: 10px;
         font-size: 25px;
@@ -67,72 +64,7 @@
         animation-delay: 1s;
     }
 
-    &__section {
-        display: flex;
-        padding-top: 30px;
-        padding-bottom: 20px;
-        padding: 15px;
-    }
-
-    &__section--article {
-        padding: 15px;
-        width: 60%;
-        font-size: 25px;
-        background-color: $color-header-objetos;
-        border: 1px solid black;
-        border-radius: 10px;
-        margin-right: 5px;
-        margin-left: 10px;
-        height: 30%;
-    }
-
-    &__section--article--h2 {
-        text-align: center;
-        padding-bottom: 20px;
-        color: black;
-        font-size: $fuente-h2;
-    }
-
-    &__section--article img {
-        float: right;
-        margin-left: 10px;
-        margin-bottom: 10px;
-    }
-
-    &__section--aside {
-        width: 40%;
-        display: block;
-        justify-content: space-around;
-        padding: 12px;
-        font-size: 25px;
-        background-color: $color-header-objetos;
-        border: 1px solid black;
-        border-radius: 10px;
-        margin-left: 5px;
-        margin-right: 10px;
-    }
-
-    &__section--aside iframe {
-        padding-left: 90px;
-        width: 500px;
-    }
-
-    &__section--aside--h3 {
-        text-align: center;
-        padding-bottom: 20px;
-    }
-
-    &__section--aside p {
-        padding-bottom: 30px;
-    }
-
-    &__section2--aside img {
-        float: right;
-        margin-left: 10px;
-    }
-
 }
-
 
 
 @keyframes efecto-main__p {
@@ -170,9 +102,14 @@
     background-color: rgb(146, 182, 204);
 }
 
+.button--index1, .button--index2, .button--index3 {
+margin-top: 10px;
+margin-bottom: 10px;
+}
 
 
-#boton-galeria {
+
+.button--galeria {
     margin-top: 30px;
     margin-left: 250px;
     margin-right: 250px;

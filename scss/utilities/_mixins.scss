@@ -10,3 +10,16 @@
     justify-content: $justify;
     align-items: $align;
 }
+
+@mixin parallax ($repeat, $position, $attachment, $size) {
+    background-repeat: $repeat;
+    background-position: $position;
+    background-attachment: $attachment;
+    background-size: $size;
+}
+
+@mixin button-index-tienda ($backgroundcolor, $color, $fontweight) {
+    background-color: $backgroundcolor;
+    color: $color;
+    font-weight: $fontweight;
+}
