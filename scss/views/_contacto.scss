@@ -4,7 +4,7 @@
             $color-gradient-parallax),
         url("../multimedia/contactoimagen.jpg");
     @include parallax (no-repeat, center, fixed, cover);
-    height: 100vh;
+    height: 95vh;
 
     &_div {
         display: flex;
@@ -32,7 +32,7 @@
     }
 
     &__section img {
-        margin-left: 200px;
+        margin-left: 170px;
         margin-top: 70px;
         margin-bottom: 20px;
     }
