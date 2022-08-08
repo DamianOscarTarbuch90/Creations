@@ -17,6 +17,7 @@
     &--titulosigno {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
     }
 
     &--titulosigno img {
@@ -34,12 +35,14 @@
 
     &--fila1 {
         @include flex-3val (row, space-around, center);
-
+        flex-wrap: wrap;
+        overflow: hidden
     }
 
     &--fila2 {
         @include flex-3val (row, space-around, center);
-
+        flex-wrap: wrap;
+        overflow: hidden
     }
 
     &--fila1--1,
@@ -57,7 +60,7 @@
     &--fila1--1:hover {
         background-color: rgb(228, 220, 220);
         transition: 0.5s;
-}
+    }
 
     &--fila1--2:hover {
         background-color: rgb(228, 220, 220);
@@ -114,41 +117,41 @@
     &--fila1--1--button:hover {
         background-color: rgb(120, 38, 197);
         transition: 0.5s;
-}
+    }
 
-&--fila1--2--button:hover {
-    background-color: rgb(120, 38, 197);
-    transition: 0.5s;
-}
+    &--fila1--2--button:hover {
+        background-color: rgb(120, 38, 197);
+        transition: 0.5s;
+    }
 
-&--fila1--3--button:hover {
-    background-color: rgb(120, 38, 197);
-    transition: 0.5s;
-}
+    &--fila1--3--button:hover {
+        background-color: rgb(120, 38, 197);
+        transition: 0.5s;
+    }
 
-&--fila1--4--button:hover {
-    background-color: rgb(120, 38, 197);
-    transition: 0.5s;
-}
+    &--fila1--4--button:hover {
+        background-color: rgb(120, 38, 197);
+        transition: 0.5s;
+    }
 
-&--fila2--5--button:hover {
-    background-color: rgb(120, 38, 197);
-    transition: 0.5s;
-}
+    &--fila2--5--button:hover {
+        background-color: rgb(120, 38, 197);
+        transition: 0.5s;
+    }
 
-&--fila2--6--button:hover {
-    background-color: rgb(120, 38, 197);
-    transition: 0.5s;
-}
+    &--fila2--6--button:hover {
+        background-color: rgb(120, 38, 197);
+        transition: 0.5s;
+    }
 
-&--fila2--7--button:hover {
-    background-color: rgb(120, 38, 197);
-    transition: 0.5s;
-}
+    &--fila2--7--button:hover {
+        background-color: rgb(120, 38, 197);
+        transition: 0.5s;
+    }
 
-&--fila2--8--button:hover {
-    background-color: rgb(120, 38, 197);
-    transition: 0.5s;
-}
+    &--fila2--8--button:hover {
+        background-color: rgb(120, 38, 197);
+        transition: 0.5s;
+    }
 
 }
