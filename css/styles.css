@@ -113,8 +113,7 @@
   padding-bottom: 10px; }
 
 .main__tienda {
-  background-color: #f0e4e4;
-  height: 195vh; }
+  background-color: #f0e4e4; }
   .main__tienda h1 {
     text-align: center;
     padding-top: 30px;
@@ -456,7 +455,7 @@ footer {
 
 @media screen and (max-width: 768px) {
   .main__tienda {
-    height: 370vh; } }
+    height: auto; } }
 
 @media screen and (max-width: 480px) {
   .main__p {
@@ -503,4 +502,4 @@ footer {
   .main__contenedor__slider img {
     width: 30%; }
   .main__tienda {
-    height: 680vh; } }
+    height: auto; } }
