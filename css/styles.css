@@ -264,7 +264,6 @@
     grid-row: 6 / 8; }
 
 .main__blog {
-  height: 555vh;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/banner-blog.jpg");
   background-color: #f0e4e4;
   background-repeat: no-repeat;
@@ -455,6 +454,8 @@ footer {
 
 @media screen and (max-width: 768px) {
   .main__tienda {
+    height: auto; }
+  .main__blog {
     height: auto; } }
 
 @media screen and (max-width: 480px) {
@@ -502,4 +503,6 @@ footer {
   .main__contenedor__slider img {
     width: 30%; }
   .main__tienda {
+    height: auto; }
+  .main__blog {
     height: auto; } }
