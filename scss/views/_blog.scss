@@ -1,13 +1,9 @@
 .main__blog {
-    background-image: linear-gradient(0deg,
-            $color-gradient-parallax,
-            $color-gradient-parallax),
-        url("../multimedia/banner-blog.jpg");
-        background-color: $color-fondos-pages;
-    @include parallax (no-repeat, center, fixed, cover);
+ background-color: $color-fondos-pages;
+ 
     
     h1 {
-        color: white;
+        color: $color-fuente-blog;
         padding-top: 30px;
         text-align: center;
         font-size: $fuente-h1;
@@ -23,6 +19,10 @@
         font-size: $fuente-blog;
         margin-left: 10px;
         margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
     }
 
     &__section1--article1 h2,
@@ -30,14 +30,17 @@
     &__section1--article3 h2 {
         text-align: center;
         padding-bottom: 20px;
-        color: white;
+        color: $color-fuente-blog;
     }
 
     &__section1--article1 p,
     &__section1--article2 p,
     &__section1--article3 p {
         padding: 10px;
-        margin-left: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: $color-fuente-blog;
+
     }
 
     &__section1--article1 h2 {
@@ -45,27 +48,28 @@
     }
 
     &__section1--article1 img {
-        float: left;
         padding: 30px;
         margin-top: 30px;
+       margin: auto;
     }
 
     &__section1--article2 img {
-        float: right;
         padding: 30px;
         margin-top: 80px;
+        margin: auto;
     }
 
     &__section1--article3 img {
-        float: left;
         padding: 30px;
         margin-top: 30px;
+        margin: auto;
     }
 
     &__section1--article2 h3 {
         padding: 10px;
         color: white;
         font-size: $fuente-h3;
+        margin-left: 100px;
     }
 
     &--h2 {
@@ -78,10 +82,12 @@
 
     &__section2--fila1 {
         display: flex;
+        flex-wrap: wrap;
     }
 
     &__section2--fila2 {
         display: flex;
+        flex-wrap: wrap;
     }
 
     &__section2--fila1--article1,

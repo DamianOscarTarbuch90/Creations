@@ -4,7 +4,6 @@
             $color-gradient-parallax),
         url("../multimedia/contactoimagen.jpg");
     @include parallax (no-repeat, center, fixed, cover);
-    height: 95vh;
 
     &_div {
         display: flex;
@@ -25,7 +24,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 50%;
+        
         padding: 100px;
         margin-bottom: 280px;
         margin-left: 60px;
@@ -38,7 +37,7 @@
     }
 
     &__section--ubicacion {
-        width: 50%;
+       
         padding-top: 50px;
         margin-bottom: 200px;
         padding-right: 140px;
