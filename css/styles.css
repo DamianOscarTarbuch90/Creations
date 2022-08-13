@@ -222,8 +222,7 @@
   transition: 0.5s; }
 
 .main__galeria {
-  background-color: #f0e4e4;
-  height: 155vh; }
+  background-color: #f0e4e4; }
   .main__galeria h1 {
     text-align: center;
     padding-top: 40px;
@@ -245,22 +244,22 @@
     width: 100%;
     height: 100%;
     object-fit: cover; }
-  .main__galeria img:first-child {
+  .main__galeria__section--foto1 {
     grid-column: 1 / 3;
     grid-row: 1 / 4; }
-  .main__galeria img:nth-child(6) {
+  .main__galeria__section--foto6 {
     grid-column: 4 / 6;
     grid-row: 2 / 4; }
-  .main__galeria img:nth-child(9) {
+  .main__galeria__section--foto9 {
     grid-column: 3 / 5;
     grid-row: 4 / 6; }
-  .main__galeria img:nth-child(12) {
+  .main__galeria__section--foto12 {
     grid-row: 5 / 8; }
-  .main__galeria img:last-child {
-    grid-column: 4 / 6;
-    grid-row: 6 / 8; }
-  .main__galeria img:nth-child(15) {
+  .main__galeria__section--foto15 {
     grid-column: 2 / 4;
+    grid-row: 6 / 8; }
+  .main__galeria__section--foto16 {
+    grid-column: 4 / 6;
     grid-row: 6 / 8; }
 
 .main__blog {
@@ -325,8 +324,6 @@
   .main__blog__section2--fila2 {
     display: flex;
     flex-wrap: wrap; }
-  .main__blog__section2--fila1--article1, .main__blog__section2--fila1--article2, .main__blog__section2--fila2--article3, .main__blog__section2--fila2--article4 {
-    width: 50%; }
   .main__blog__section2--fila1--article1 iframe,
   .main__blog__section2--fila1--article2 iframe,
   .main__blog__section2--fila2--article3 iframe,
@@ -457,11 +454,22 @@ footer {
     height: auto; }
   .main__blog {
     height: auto;
-    width: 100%; } }
+    width: 100%; }
+  .main__galeria__section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; } }
 
 @media screen and (max-width: 480px) {
   .main__tienda {
     height: auto; }
   .main__blog {
     height: auto;
-    width: 100%; } }
+    width: 100%; }
+  .main__blog__section2--fila1--article1 iframe, .main__blog__section2--fila1--article2 iframe, .main__blog__section2--fila2--article3 iframe, .main__blog__section2--fila2--article4 iframe {
+    width: 90%; }
+  .main__contacto_div {
+    flex-direction: column;
+    height: 100%; }
+  .main__galeria__section {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px; } }

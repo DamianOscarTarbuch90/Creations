@@ -8,6 +8,12 @@
         height: auto;
         width: 100%;
     }
+
+ .main__galeria__section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+ }
+
 }
 
 @media screen and (max-width:480px) {
@@ -22,4 +28,22 @@
     width: 100%;
 }
 
+.main__blog__section2--fila1--article1 iframe, .main__blog__section2--fila1--article2 iframe, .main__blog__section2--fila2--article3 iframe, .main__blog__section2--fila2--article4 iframe {
+    width: 90%;
 }
+  
+
+.main__contacto_div {
+    flex-direction: column;
+    height: 100%;
+}
+
+.main__galeria__section {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    
+}
+
+}
+
+
