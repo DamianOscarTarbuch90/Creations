@@ -68,11 +68,6 @@
   100% {
     padding-left: 25px; } }
 
-.card-group {
-  gap: 10px;
-  padding: 20px;
-  border-radius: 40px; }
-
 .card {
   background-color: #92b6cc; }
 
@@ -319,17 +314,17 @@
     color: black;
     font-weight: bold;
     padding-bottom: 40px;
-    padding-top: 30px;
     font-size: 35px; }
   .main__blog__section2--fila1 {
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    margin-left: 60px; }
   .main__blog__section2--fila1--article1 iframe,
   .main__blog__section2--fila1--article2 iframe,
   .main__blog__section2--fila1--article3 iframe,
   .main__blog__section2--fila1--article4 iframe {
     padding: 10px;
-    margin-left: 40px; }
+    width: 300px; }
 
 .main__contacto {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/contactoimagen.jpg");
