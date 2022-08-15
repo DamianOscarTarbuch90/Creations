@@ -328,9 +328,8 @@
   .main__blog__section2--fila1--article2 iframe,
   .main__blog__section2--fila1--article3 iframe,
   .main__blog__section2--fila1--article4 iframe {
-    padding: 10px; }
-  .main__blog__section2--fila1--article1 {
-    padding-left: 100px; }
+    padding: 10px;
+    margin-left: 40px; }
 
 .main__contacto {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/contactoimagen.jpg");
@@ -445,8 +444,7 @@ footer {
   .main__tienda {
     height: auto; }
   .main__blog {
-    height: auto;
-    width: 100%; }
+    height: auto; }
   .main__galeria__section {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px; } }
@@ -455,10 +453,9 @@ footer {
   .main__tienda {
     height: auto; }
   .main__blog {
-    height: auto;
-    width: 100%; }
-  .main__blog__section2--fila1--article1 iframe, .main__blog__section2--fila1--article2 iframe, .main__blog__section2--fila2--article3 iframe, .main__blog__section2--fila2--article4 iframe {
-    width: 90%; }
+    height: auto; }
+  .main__blog--h2 {
+    padding: 10px; }
   .main__contacto_div {
     flex-direction: column;
     height: 100%; }
