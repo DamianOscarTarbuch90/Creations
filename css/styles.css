@@ -285,7 +285,8 @@
   .main__blog__section1--article3 h2 {
     text-align: center;
     padding-bottom: 20px;
-    color: black; }
+    color: blueviolet;
+    font-weight: bold; }
   .main__blog__section1--article1 p,
   .main__blog__section1--article2 p,
   .main__blog__section1--article3 p {
@@ -309,36 +310,27 @@
     margin: auto; }
   .main__blog__section1--article2 h3 {
     padding: 10px;
-    color: white;
+    color: #92b6cc;
     font-size: 30px;
+    font-weight: bold;
     margin-left: 100px; }
   .main__blog--h2 {
     text-align: center;
-    color: white;
+    color: black;
+    font-weight: bold;
     padding-bottom: 40px;
     padding-top: 30px;
     font-size: 35px; }
   .main__blog__section2--fila1 {
     display: flex;
     flex-wrap: wrap; }
-  .main__blog__section2--fila2 {
-    display: flex;
-    flex-wrap: wrap; }
   .main__blog__section2--fila1--article1 iframe,
   .main__blog__section2--fila1--article2 iframe,
-  .main__blog__section2--fila2--article3 iframe,
-  .main__blog__section2--fila2--article4 iframe {
-    padding: 20px; }
+  .main__blog__section2--fila1--article3 iframe,
+  .main__blog__section2--fila1--article4 iframe {
+    padding: 10px; }
   .main__blog__section2--fila1--article1 {
-    padding-right: 20px;
-    padding-left: 80px; }
-  .main__blog__section2--fila1--article2 {
-    padding-right: 40px; }
-  .main__blog__section2--fila2--article3 {
-    padding-right: 20px;
-    padding-left: 80px; }
-  .main__blog__section2--fila2--article4 {
-    padding-right: 40px; }
+    padding-left: 100px; }
 
 .main__contacto {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/contactoimagen.jpg");

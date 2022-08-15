@@ -30,7 +30,8 @@
     &__section1--article3 h2 {
         text-align: center;
         padding-bottom: 20px;
-        color: $color-fuente-blog;
+        color: $color-h2-blog;
+        font-weight: bold;
     }
 
     &__section1--article1 p,
@@ -67,14 +68,16 @@
 
     &__section1--article2 h3 {
         padding: 10px;
-        color: white;
+        color: $color-h3-blog;
         font-size: $fuente-h3;
+        font-weight: bold;
         margin-left: 100px;
     }
 
     &--h2 {
         text-align: center;
-        color: white;
+        color: black;
+        font-weight: bold;
         padding-bottom: 40px;
         padding-top: 30px;
         font-size: $fuente-h2
@@ -85,40 +88,15 @@
         flex-wrap: wrap;
     }
 
-    &__section2--fila2 {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    &__section2--fila1--article1,
-    &__section2--fila1--article2,
-    &__section2--fila2--article3,
-    &__section2--fila2--article4 {
-    }
-
     &__section2--fila1--article1 iframe,
     &__section2--fila1--article2 iframe,
-    &__section2--fila2--article3 iframe,
-    &__section2--fila2--article4 iframe {
-        padding: 20px;
+    &__section2--fila1--article3 iframe,
+    &__section2--fila1--article4 iframe {
+        padding: 10px;
     }
 
     &__section2--fila1--article1 {
-        padding-right: 20px;
-        padding-left: 80px;
-    }
-
-    &__section2--fila1--article2 {
-        padding-right: 40px;
-    }
-
-    &__section2--fila2--article3 {
-        padding-right: 20px;
-        padding-left: 80px;
-    }
-
-    &__section2--fila2--article4 {
-        padding-right: 40px;
+        padding-left: 100px;
     }
 
 }
