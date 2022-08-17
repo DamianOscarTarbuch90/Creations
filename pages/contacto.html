@@ -63,18 +63,34 @@
       <section class="main__contacto__section">
         <img src="../multimedia/mensajeimagen.jpg" alt="mensaje" title="Mensaje" width="100px" height="100px">
 
-        <div class="input-group mb-3 flex-nowrap">
-          <span class="input-group-text" id="basic-addon1">@</span>
-          <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-        </div>
-        <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-          <span class="input-group-text" id="basic-addon2">@example.com</span>
-        </div>
-        <div class="input-group">
-          <span class="input-group-text">With textarea</span>
-          <textarea class="form-control" aria-label="With textarea"></textarea>
-        </div>
+          <div class="container">
+            <form class="row g-3">
+              <div class="col-6">
+                <label for="name" class="form-label"><strong> NOMBRE </strong></label>
+                <input type="text" class="form-control" id="nameinput" placeholder="Escribe tu nombre">
+              </div>
+              <div class="col-6">
+                <label for="email" class="form-label"> <strong> EMAIL </strong></label>
+                <input type="email" class="form-control" id="emailinput" placeholder="Escribe tu email">
+              </div>
+              <div class="col-12">
+                <label for="text" class="form-label"> <strong> MENSAJE </strong></label>
+                <input type="text" class="form-control" id="emailinput" placeholder="Escribe tu mensaje">
+              </div>
+              <div class="col-6">
+                <div class="form-check">
+                <label for="checkbox" class="form-label"> <strong> Acepto los términos y condiciones </strong></label>
+                <input type="checkbox" class="form-check-input" id="checkterms">
+              </div>
+              </div>
+              <div class="col-1">
+                <button type="submit" class="btn btn-dark">Reset</button>
+              </div>
+              <div class="col-1">
+                <button type="submit" class=" btn btn-dark">Enviar</button>
+              </div>
+            </form>
+          </div>
       </section>
       <section class="main__contacto__section--ubicacion">
         <div class="main__contacto__section--ubicacion--div">

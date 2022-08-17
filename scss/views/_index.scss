@@ -106,41 +106,8 @@ margin-bottom: 10px;
 
 .button--galeria {
     margin-top: 30px;
-    margin-left: 250px;
-    margin-right: 250px;
-    animation-name: boton-galeria;
-    animation-duration: 4s;
-    animation-delay: 1s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes boton-galeria {
-    0% {
-        margin-left: 100px;
-        margin-right: 100px;
-
-    }
-
-    25% {
-        margin-left: 200px;
-        margin-right: 200px;
-    }
-
-    50% {
-        margin-left: 300px;
-        margin-right: 300px;
-    }
-
-    75% {
-        margin-left: 200px;
-        margin-right: 200px;
-    }
-
-    100% {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-
+    margin-left: 550px;
+    margin-right: 550px;
 }
 
 #carouselExampleIndicators {
