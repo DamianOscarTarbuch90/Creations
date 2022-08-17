@@ -40,6 +40,9 @@
     font-size: 25px;
     font-weight: bold; }
 
+.main h2 {
+  font-size: 25px; }
+
 .card {
   background-color: #92b6cc; }
   .card__main--article1 {
@@ -153,6 +156,30 @@
 .cards__tienda--fila2--8:hover {
   background-color: #e4dcdc;
   transition: 0.5s; }
+
+.cards__tienda--fila1--1 h2 {
+  font-size: 20px; }
+
+.cards__tienda--fila1--2 h2 {
+  font-size: 20px; }
+
+.cards__tienda--fila1--3 h2 {
+  font-size: 20px; }
+
+.cards__tienda--fila1--4 h2 {
+  font-size: 20px; }
+
+.cards__tienda--fila2--5 h2 {
+  font-size: 20px; }
+
+.cards__tienda--fila2--6 h2 {
+  font-size: 20px; }
+
+.cards__tienda--fila2--7 h2 {
+  font-size: 20px; }
+
+.cards__tienda--fila2--8 h2 {
+  font-size: 20px; }
 
 .cards__tienda--fila1--1--button, .cards__tienda--fila1--2--button, .cards__tienda--fila1--3--button, .cards__tienda--fila1--4--button, .cards__tienda--fila2--5--button, .cards__tienda--fila2--6--button, .cards__tienda--fila2--7--button, .cards__tienda--fila2--8--button {
   font-weight: bold; }
@@ -417,8 +444,11 @@ footer {
     align-items: center; }
   .main__blog {
     height: auto; }
+  .main__galeria__img img {
+    margin-top: 30px;
+    margin-left: 50px; }
   .main__galeria__section {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 6fr);
     gap: 10px; } }
 
 @media screen and (max-width: 480px) {
@@ -438,6 +468,8 @@ footer {
   .main__contacto_div {
     flex-direction: column;
     height: auto; }
+  .main__galeria__img img {
+    margin-top: 50px; }
   .main__galeria__section {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 3fr);
     gap: 10px; } }

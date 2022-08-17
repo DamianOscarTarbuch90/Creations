@@ -25,8 +25,13 @@
     
     }
 
+    .main__galeria__img img {
+        margin-top: 30px;
+        margin-left: 50px;
+       }
+
  .main__galeria__section {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 6fr);
     gap: 10px;
  }
 
@@ -63,8 +68,12 @@
     height: auto;
 }
 
+.main__galeria__img img {
+ margin-top: 50px;
+}
+
 .main__galeria__section {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 3fr);
     gap: 10px;
     
 }
