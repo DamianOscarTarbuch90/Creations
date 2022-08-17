@@ -1,8 +1,24 @@
 @media screen and (max-width: 768px) {
     
+.button--index1, .button--index2, .button--index3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
     .main__tienda {
         height: auto;
     }
+
+    .main__tienda h1 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .cards__tienda--fila1--1--button, .cards__tienda--fila1--2--button, .cards__tienda--fila1--3--button, .cards__tienda--fila1--4--button, .cards__tienda--fila2--5--button, .cards__tienda--fila2--6--button, .cards__tienda--fila2--7--button, .cards__tienda--fila2--8--button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
 
     .main__blog {
         height: auto;
@@ -21,6 +37,17 @@
 
     .main__tienda {
         height: auto;
+    }
+
+    .main__tienda h1 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .cards__tienda--fila1--1--button, .cards__tienda--fila1--2--button, .cards__tienda--fila1--3--button, .cards__tienda--fila1--4--button, .cards__tienda--fila2--5--button, .cards__tienda--fila2--6--button, .cards__tienda--fila2--7--button, .cards__tienda--fila2--8--button {
+     display: flex;
+     justify-content: center;
+     align-items: center;
     }
 
 .main__blog {
