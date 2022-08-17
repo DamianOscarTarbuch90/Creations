@@ -47,28 +47,28 @@
   background-color: #92b6cc; }
   .card__main--article1 {
     margin-bottom: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px; }
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; }
   .card__main--article2 {
     margin-bottom: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px; }
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; }
   .card__main--article3 {
     margin-bottom: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px; }
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; }
   .card__main--article4 {
     margin-bottom: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px; }
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; }
   .card__main--article5 {
     margin-bottom: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px; }
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; }
   .card__main--article6 {
     margin-bottom: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px; }
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; }
 
 .button--index1, .button--index2, .button--index3 {
   margin-top: 10px;
@@ -81,7 +81,10 @@
   margin-right: 550px; }
 
 #carouselExampleIndicators {
-  padding: 70px; }
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 70px;
+  padding-top: 20px; }
 
 .carousel-indicators {
   padding-bottom: 10px; }
@@ -429,6 +432,20 @@ footer {
   padding-left: 100px; }
 
 @media screen and (max-width: 768px) {
+  .card__main--article1 h2 {
+    text-align: center; }
+  .card__main--article1 h2 {
+    text-align: center; }
+  .card__main--article2 h2 {
+    text-align: center; }
+  .card__main--article3 h2 {
+    text-align: center; }
+  .card__main--article4 h2 {
+    text-align: center; }
+  .card__main--article5 h2 {
+    text-align: center; }
+  .card__main--article6 h2 {
+    text-align: center; }
   .button--index1, .button--index2, .button--index3 {
     display: flex;
     justify-content: center;
@@ -452,6 +469,18 @@ footer {
     gap: 10px; } }
 
 @media screen and (max-width: 480px) {
+  .card__main--article1 h2 {
+    text-align: center; }
+  .card__main--article2 h2 {
+    text-align: center; }
+  .card__main--article3 h2 {
+    text-align: center; }
+  .card__main--article4 h2 {
+    text-align: center; }
+  .card__main--article5 h2 {
+    text-align: center; }
+  .card__main--article6 h2 {
+    text-align: center; }
   .main__tienda {
     height: auto; }
   .main__tienda h1 {

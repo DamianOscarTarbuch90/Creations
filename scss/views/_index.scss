@@ -59,38 +59,38 @@
 
     &__main--article1 {
         margin-bottom: 20px;
-        border-bottom-right-radius: 20px;
-        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
 }
 
     &__main--article2 {
         margin-bottom: 20px;
-        border-bottom-right-radius: 20px;
-        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
     }
 
     &__main--article3 {
         margin-bottom: 20px;
-        border-bottom-right-radius: 20px;
-        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
     }
 
     &__main--article4 {
         margin-bottom: 20px;
-        border-bottom-right-radius: 20px;
-        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
     }
 
     &__main--article5 {
         margin-bottom: 20px;
-        border-bottom-right-radius: 20px;
-        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
     }
 
     &__main--article6 {
         margin-bottom: 20px;
-     border-bottom-right-radius: 20px;
-     border-bottom-left-radius: 20px;
+     border-bottom-right-radius: 10px;
+     border-bottom-left-radius: 10px;
 }
 
 }
@@ -108,7 +108,11 @@ font-weight: bold;
 }
 
 #carouselExampleIndicators {
-    padding: 70px;
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-bottom: 70px;
+   padding-top: 20px;
+   
 }
 
 .carousel-indicators {
