@@ -39,55 +39,12 @@
     padding-top: 32px;
     font-size: 25px;
     font-weight: bold; }
-
-.main h2 {
-  font-size: 25px; }
-
-.card {
-  background-color: #92b6cc; }
-  .card__main--article1 {
-    margin-bottom: 20px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px; }
-  .card__main--article2 {
-    margin-bottom: 20px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px; }
-  .card__main--article3 {
-    margin-bottom: 20px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px; }
-  .card__main--article4 {
-    margin-bottom: 20px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px; }
-  .card__main--article5 {
-    margin-bottom: 20px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px; }
-  .card__main--article6 {
-    margin-bottom: 20px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px; }
-
-.button--index1, .button--index2, .button--index3 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-weight: bold; }
-
-.button--galeria {
-  margin-top: 30px;
-  margin-left: 550px;
-  margin-right: 550px; }
-
-#carouselExampleIndicators {
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 70px;
-  padding-top: 20px; }
-
-.carousel-indicators {
-  padding-bottom: 10px; }
+  .main h2 {
+    font-size: 25px; }
+  .main .button--index1, .main .button--index2, .main .button--index3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold; }
 
 .main__tienda {
   background-color: #f0e4e4; }
@@ -108,108 +65,6 @@
     margin-top: 15px; }
   .main__tienda__section--fila1 {
     display: flex; }
-
-.cards__tienda--fila1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap; }
-
-.cards__tienda--fila2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap; }
-
-.cards__tienda--fila1--1, .cards__tienda--fila1--2, .cards__tienda--fila1--3, .cards__tienda--fila1--4, .cards__tienda--fila2--5, .cards__tienda--fila2--6, .cards__tienda--fila2--7, .cards__tienda--fila2--8 {
-  margin: 20px;
-  background-color: #f0e4e4;
-  border-radius: 20px; }
-
-.cards__tienda--fila1--1:hover {
-  background-color: #e4dcdc;
-  transition: 0.5s; }
-
-.cards__tienda--fila1--2:hover {
-  background-color: #e4dcdc;
-  transition: 0.5s; }
-
-.cards__tienda--fila1--3:hover {
-  background-color: #e4dcdc;
-  transition: 0.5s; }
-
-.cards__tienda--fila1--4:hover {
-  background-color: #e4dcdc;
-  transition: 0.5s; }
-
-.cards__tienda--fila2--5:hover {
-  background-color: #e4dcdc;
-  transition: 0.5s; }
-
-.cards__tienda--fila2--6:hover {
-  background-color: #e4dcdc;
-  transition: 0.5s; }
-
-.cards__tienda--fila2--7:hover {
-  background-color: #e4dcdc;
-  transition: 0.5s; }
-
-.cards__tienda--fila2--8:hover {
-  background-color: #e4dcdc;
-  transition: 0.5s; }
-
-.cards__tienda--fila1--1 h2 {
-  font-size: 20px; }
-
-.cards__tienda--fila1--2 h2 {
-  font-size: 20px; }
-
-.cards__tienda--fila1--3 h2 {
-  font-size: 20px; }
-
-.cards__tienda--fila1--4 h2 {
-  font-size: 20px; }
-
-.cards__tienda--fila2--5 h2 {
-  font-size: 20px; }
-
-.cards__tienda--fila2--6 h2 {
-  font-size: 20px; }
-
-.cards__tienda--fila2--7 h2 {
-  font-size: 20px; }
-
-.cards__tienda--fila2--8 h2 {
-  font-size: 20px; }
-
-.cards__tienda--fila1--1--button, .cards__tienda--fila1--2--button, .cards__tienda--fila1--3--button, .cards__tienda--fila1--4--button, .cards__tienda--fila2--5--button, .cards__tienda--fila2--6--button, .cards__tienda--fila2--7--button, .cards__tienda--fila2--8--button {
-  font-weight: bold; }
-
-.cards__tienda--fila1--1--button:hover {
-  transition: 0.5s; }
-
-.cards__tienda--fila1--2--button:hover {
-  transition: 0.5s; }
-
-.cards__tienda--fila1--3--button:hover {
-  transition: 0.5s; }
-
-.cards__tienda--fila1--4--button:hover {
-  transition: 0.5s; }
-
-.cards__tienda--fila2--5--button:hover {
-  transition: 0.5s; }
-
-.cards__tienda--fila2--6--button:hover {
-  transition: 0.5s; }
-
-.cards__tienda--fila2--7--button:hover {
-  transition: 0.5s; }
-
-.cards__tienda--fila2--8--button:hover {
-  transition: 0.5s; }
 
 .main__galeria {
   background-color: #f0e4e4; }
@@ -365,12 +220,10 @@
     margin-top: 10px; }
   .main__contacto__section--ubicacion--div img {
     margin-bottom: 30px; }
-
-.form-label {
-  color: white; }
-
-.form-control {
-  background-color: #e4d7d7; }
+  .main__contacto .form-label {
+    color: white; }
+  .main__contacto .form-control {
+    background-color: #e4d7d7; }
 
 footer {
   display: flex;
@@ -502,3 +355,141 @@ footer {
   .main__galeria__section {
     grid-template-columns: repeat(1, 3fr);
     gap: 10px; } }
+
+.carouselExampleIndicators {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 70px;
+  padding-top: 20px; }
+
+.carousel-indicators {
+  padding-bottom: 10px; }
+
+.card {
+  background-color: #92b6cc; }
+  .card__main--article1 {
+    margin-bottom: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; }
+  .card__main--article2 {
+    margin-bottom: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; }
+  .card__main--article3 {
+    margin-bottom: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; }
+  .card__main--article4 {
+    margin-bottom: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; }
+  .card__main--article5 {
+    margin-bottom: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; }
+  .card__main--article6 {
+    margin-bottom: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; }
+
+.cards__tienda--fila1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.cards__tienda--fila2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.cards__tienda--fila1--1, .cards__tienda--fila1--2, .cards__tienda--fila1--3, .cards__tienda--fila1--4, .cards__tienda--fila2--5, .cards__tienda--fila2--6, .cards__tienda--fila2--7, .cards__tienda--fila2--8 {
+  margin: 20px;
+  background-color: #f0e4e4;
+  border-radius: 20px; }
+
+.cards__tienda--fila1--1:hover {
+  background-color: #e4dcdc;
+  transition: 0.5s; }
+
+.cards__tienda--fila1--2:hover {
+  background-color: #e4dcdc;
+  transition: 0.5s; }
+
+.cards__tienda--fila1--3:hover {
+  background-color: #e4dcdc;
+  transition: 0.5s; }
+
+.cards__tienda--fila1--4:hover {
+  background-color: #e4dcdc;
+  transition: 0.5s; }
+
+.cards__tienda--fila2--5:hover {
+  background-color: #e4dcdc;
+  transition: 0.5s; }
+
+.cards__tienda--fila2--6:hover {
+  background-color: #e4dcdc;
+  transition: 0.5s; }
+
+.cards__tienda--fila2--7:hover {
+  background-color: #e4dcdc;
+  transition: 0.5s; }
+
+.cards__tienda--fila2--8:hover {
+  background-color: #e4dcdc;
+  transition: 0.5s; }
+
+.cards__tienda--fila1--1 h2 {
+  font-size: 20px; }
+
+.cards__tienda--fila1--2 h2 {
+  font-size: 20px; }
+
+.cards__tienda--fila1--3 h2 {
+  font-size: 20px; }
+
+.cards__tienda--fila1--4 h2 {
+  font-size: 20px; }
+
+.cards__tienda--fila2--5 h2 {
+  font-size: 20px; }
+
+.cards__tienda--fila2--6 h2 {
+  font-size: 20px; }
+
+.cards__tienda--fila2--7 h2 {
+  font-size: 20px; }
+
+.cards__tienda--fila2--8 h2 {
+  font-size: 20px; }
+
+.cards__tienda--fila1--1--button, .cards__tienda--fila1--2--button, .cards__tienda--fila1--3--button, .cards__tienda--fila1--4--button, .cards__tienda--fila2--5--button, .cards__tienda--fila2--6--button, .cards__tienda--fila2--7--button, .cards__tienda--fila2--8--button {
+  font-weight: bold; }
+
+.cards__tienda--fila1--1--button:hover {
+  transition: 0.5s; }
+
+.cards__tienda--fila1--2--button:hover {
+  transition: 0.5s; }
+
+.cards__tienda--fila1--3--button:hover {
+  transition: 0.5s; }
+
+.cards__tienda--fila1--4--button:hover {
+  transition: 0.5s; }
+
+.cards__tienda--fila2--5--button:hover {
+  transition: 0.5s; }
+
+.cards__tienda--fila2--6--button:hover {
+  transition: 0.5s; }
+
+.cards__tienda--fila2--7--button:hover {
+  transition: 0.5s; }
+
+.cards__tienda--fila2--8--button:hover {
+  transition: 0.5s; }
