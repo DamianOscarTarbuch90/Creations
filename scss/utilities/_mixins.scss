@@ -18,8 +18,3 @@
     background-size: $size;
 }
 
-@mixin button-index-tienda ($backgroundcolor, $color, $fontweight) {
-    background-color: $backgroundcolor;
-    color: $color;
-    font-weight: $fontweight;
-}

@@ -3,8 +3,7 @@
   padding: 0; }
 
 .main {
-  background-color: #f0e4e4;
-  width: 100%; }
+  background-color: #f0e4e4; }
   .main__div {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/banner-blog.jpg");
     background-repeat: no-repeat;
@@ -22,15 +21,69 @@
     font-size: 30px;
     font-weight: bold;
     color: white; }
-  .main__div button:hover {
-    background-color: #7826c5;
-    transition: 0.5s;
-    cursor: pointer; }
   .main__div h1 {
     color: #f1e4e4;
     padding-bottom: 80px;
     font-size: 45px;
     font-weight: bold; }
+  .main .main__index__cards--section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; }
+  .main .main__index__cards--section1--1, .main .main__index__cards--section1--2, .main .main__index__cards--section1--3 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 30px;
+    margin-top: 10px; }
+  .main .card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s; }
+  .main .card .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000; }
+  .main .card .front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .main .card .front h2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center; }
+  .main .card .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: black;
+    padding: 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px black; }
+  .main .card .back .link a {
+    color: #f3f3f3; }
+  .main .card .back h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px; }
+  .main .card .back p {
+    letter-spacing: 1px; }
+  .main .card:hover .front {
+    transform: perspective(600px) rotateY(180deg); }
+  .main .card:hover .back {
+    transform: perspective(600px) rotateY(360deg); }
   .main__p {
     text-align: center;
     display: flex;
@@ -357,8 +410,8 @@ footer {
     gap: 10px; } }
 
 .carouselExampleIndicators {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
   padding-bottom: 70px;
   padding-top: 20px; }
 
