@@ -375,6 +375,15 @@
 
 @media screen and (min-width:1585px) {
 
+   .main__div h1 {
+      font-size: 55px;
+   }
+
+   .main__div h2 {
+      font-size: 40px;
+   }
+
+
    .main__index__cards--section1--1,
     .main__index__cards--section1--2,
     .main__index__cards--section1--3 {
@@ -397,6 +406,22 @@
 
 .card__main--article6 {
    width: 470px;
+}
+
+.main__tienda h1 {
+   font-size: 55px;
+}
+
+.main__blog h1 {
+   font-size: 55px;
+}
+
+.main__contacto h1 {
+   font-size: 55px;
+}
+
+.main__galeria h1 {
+   font-size: 55px;
 }
 
    .main__galeria__section--foto1 {
@@ -479,3 +504,4 @@
       grid-row: 13 / 17;
    }
 }
+
