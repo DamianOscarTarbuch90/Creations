@@ -233,7 +233,7 @@
   .main__blog__section2--fila1 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center; }
   .main__blog__section2--fila1--article1 iframe,
   .main__blog__section2--fila1--article2 iframe,
