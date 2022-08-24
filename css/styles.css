@@ -587,7 +587,9 @@ footer {
   .card__main--article4 {
     width: 470px; }
   .card__main--article5 {
-    width: 470px; }
+    width: 470px;
+    margin-left: 30px;
+    margin-right: 30px; }
   .card__main--article6 {
     width: 470px; }
   .main__galeria__section--foto1 {
