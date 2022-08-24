@@ -580,6 +580,12 @@ footer {
     display: none; } }
 
 @media screen and (min-width: 1585px) {
+  .card__main--article4 {
+    width: 450px; }
+  .card__main--article5 {
+    width: 450px; }
+  .card__main--article6 {
+    width: 450px; }
   .main__galeria__section--foto1 {
     grid-column: 1 / 4;
     grid-row: 1 / 5; }
