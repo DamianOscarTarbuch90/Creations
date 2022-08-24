@@ -1,7 +1,7 @@
 .main__blog {
- background-color: $color-fondos-pages;
- 
-    
+    background-color: $color-fondos-pages;
+
+
     h1 {
         color: $color-fuente-blog;
         padding-top: 30px;
@@ -51,7 +51,7 @@
     &__section1--article1 img {
         padding: 30px;
         margin-top: 30px;
-       margin: auto;
+        margin: auto;
     }
 
     &__section1--article2 img {
@@ -82,7 +82,7 @@
         font-size: $fuente-h2
     }
 
-    &__section2--fila1{
+    &__section2--fila1 {
         display: flex;
         flex-wrap: wrap;
         margin-left: 60px;
@@ -97,5 +97,4 @@
     }
 
 
-    }
-
+}
