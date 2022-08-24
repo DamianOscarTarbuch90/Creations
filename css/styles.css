@@ -582,7 +582,7 @@ footer {
 @media screen and (min-width: 1585px) {
   .card__main {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center; }
   .card__main--article4 {
     width: 470px; }
