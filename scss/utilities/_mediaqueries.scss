@@ -375,6 +375,12 @@
 
 @media screen and (min-width:1585px) {
 
+   .main__index__cards--section1--1,
+    .main__index__cards--section1--2,
+    .main__index__cards--section1--3 {
+        width: 400px;
+    }
+
    .card__main {
       display: flex;
       justify-content: space-around;
