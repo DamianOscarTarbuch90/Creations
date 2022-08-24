@@ -383,6 +383,11 @@
       font-size: 40px;
    }
 
+   .main__index__cards--section1 {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+   }
 
    .main__index__cards--section1--1,
     .main__index__cards--section1--2,
